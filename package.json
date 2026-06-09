@@ -1,0 +1,21 @@
+{
+  "name": "clipcomplete-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ClipComplete für Android & iOS — native App (Capacitor), verbindet sich mit dem ClipComplete-Studio-Server",
+  "scripts": {
+    "sync:www": "powershell -ExecutionPolicy Bypass -File sync-www.ps1",
+    "sync": "npm run sync:www && npx cap sync",
+    "android": "npx cap open android",
+    "ios": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/ios": "^6.1.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.0",
+    "typescript": "^6.0.3"
+  }
+}

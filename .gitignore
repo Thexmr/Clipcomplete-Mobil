@@ -1,0 +1,21 @@
+# Node
+node_modules/
+
+# Gebautes Web-Bundle (wird per sync-www aus dem Hauptrepo erzeugt)
+www/
+
+# Android Build-Artefakte
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/app/release/
+
+# iOS Build-Artefakte
+ios/App/Pods/
+ios/App/build/
+ios/DerivedData/
+
+# OS
+.DS_Store
+Thumbs.db
