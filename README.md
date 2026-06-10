@@ -31,7 +31,7 @@ ein Fix/Feature im Hauptrepo landet per `npm run sync` automatisch in der App.
 
 ```powershell
 git clone https://github.com/Thexmr/ai-video-studio        # Server/Frontend (Schwester-Ordner)
-git clone https://github.com/Thexmr/clipcomplete-mobile
+git clone https://github.com/Thexmr/Clipcomplete-Mobil clipcomplete-mobile
 cd clipcomplete-mobile
 npm install
 npm run sync          # baut das Frontend & kopiert es in die App, cap sync
